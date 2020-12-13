@@ -1,0 +1,8 @@
+VUSB_Keyboard	KEYWORD1
+
+update			KEYWORD2
+sendKeyStroke	KEYWORD2
+print			KEYWORD2
+println			KEYWORD2
+delay			KEYWORD2
+write			KEYWORD2

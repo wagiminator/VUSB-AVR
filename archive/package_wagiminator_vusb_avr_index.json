@@ -1,0 +1,50 @@
+{
+  "packages": [
+    {
+      "name": "VUSB-AVR",
+      "maintainer": "Stefan Wagner",
+      "websiteURL": "https://github.com/wagiminator/VUSB-AVR",
+      "email": "",
+      "help": {
+        "online": ""
+      },
+      "platforms": [
+        {
+          "name": "VUSB-AVR",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "avr",
+          "help": {
+            "online": ""
+          },
+          "url": "https://github.com/wagiminator/VUSB-AVR/archive/vusb_avr_v1_0_0.zip",
+          "archiveFileName": "vusb_avr_v1_0_0.zip",
+          "checksum": "SHA-256:d85a197c0d5bac9d3d9773ba9c9f7442ce259f9a60547f5f3e5725a67fc578c6",
+          "size": "624607",
+          "boards": [
+            {"name": "ATtiny45"},
+            {"name": "ATtiny85"},
+            {"name": "ATtiny44"},
+            {"name": "ATtiny84"},
+            {"name": "ATmega8"},
+            {"name": "ATmega168p"},
+            {"name": "ATmega328p"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }      
+      ],
+      "tools": []
+    }
+  ]
+}

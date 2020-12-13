@@ -1,0 +1,10 @@
+
+VUSB_DigiUSB	KEYWORD1
+
+available		KEYWORD2
+begin			KEYWORD2
+delay			KEYWORD2
+print			KEYWORD2
+println			KEYWORD2
+write			KEYWORD2
+refresh			KEYWORD2

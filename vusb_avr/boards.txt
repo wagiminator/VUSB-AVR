@@ -1,0 +1,112 @@
+menu.cpu=CPU
+
+vusb.name=VUSB-AVR
+vusb.bootloader.tool=arduino:avrdude
+vusb.build.core=arduino:arduino
+vusb.upload.tool=arduino:avrdude
+vusb.upload.speed=19200
+
+# ATtiny45
+# --------
+vusb.menu.cpu.attiny45=ATtiny45 (16.5 MHz internal)
+vusb.menu.cpu.attiny45.build.mcu=attiny45
+vusb.menu.cpu.attiny45.build.variant=tiny8
+vusb.menu.cpu.attiny45.build.board=attiny
+vusb.menu.cpu.attiny45.build.f_cpu=16500000L
+vusb.menu.cpu.attiny45.upload.maximum_size=4096
+vusb.menu.cpu.attiny45.upload.maximum_data_size=256
+vusb.menu.cpu.attiny45.bootloader.low_fuses=0xe1
+vusb.menu.cpu.attiny45.bootloader.high_fuses=0xdd
+vusb.menu.cpu.attiny45.bootloader.extended_fuses=0xff
+vusb.menu.cpu.attiny45.bootloader.unlock_bits=0xff
+vusb.menu.cpu.attiny45.bootloader.lock_bits=0xff
+
+# ATtiny85
+# --------
+vusb.menu.cpu.attiny85=ATtiny85 (16.5 MHz internal)
+vusb.menu.cpu.attiny85.build.mcu=attiny85
+vusb.menu.cpu.attiny85.build.variant=tiny8
+vusb.menu.cpu.attiny85.build.board=attiny
+vusb.menu.cpu.attiny85.build.f_cpu=16500000L
+vusb.menu.cpu.attiny85.upload.maximum_size=8192
+vusb.menu.cpu.attiny85.upload.maximum_data_size=512
+vusb.menu.cpu.attiny85.bootloader.low_fuses=0xe1
+vusb.menu.cpu.attiny85.bootloader.high_fuses=0xdd
+vusb.menu.cpu.attiny85.bootloader.extended_fuses=0xff
+vusb.menu.cpu.attiny85.bootloader.unlock_bits=0xff
+vusb.menu.cpu.attiny85.bootloader.lock_bits=0xff
+
+# ATtiny44
+# --------
+vusb.menu.cpu.attiny44=ATtiny44 (12 MHz external)
+vusb.menu.cpu.attiny44.build.mcu=attiny44
+vusb.menu.cpu.attiny44.build.variant=tiny14
+vusb.menu.cpu.attiny44.build.board=attiny
+vusb.menu.cpu.attiny44.build.f_cpu=12000000L
+vusb.menu.cpu.attiny44.upload.maximum_size=4096
+vusb.menu.cpu.attiny44.upload.maximum_data_size=256
+vusb.menu.cpu.attiny44.bootloader.low_fuses=0xff
+vusb.menu.cpu.attiny44.bootloader.high_fuses=0xdd
+vusb.menu.cpu.attiny44.bootloader.extended_fuses=0xff
+vusb.menu.cpu.attiny44.bootloader.unlock_bits=0xff
+vusb.menu.cpu.attiny44.bootloader.lock_bits=0xff
+
+# ATtiny84
+# --------
+vusb.menu.cpu.attiny84=ATtiny84 (12 MHz external)
+vusb.menu.cpu.attiny84.build.mcu=attiny84
+vusb.menu.cpu.attiny84.build.variant=tiny14
+vusb.menu.cpu.attiny84.build.board=attiny
+vusb.menu.cpu.attiny84.build.f_cpu=12000000L
+vusb.menu.cpu.attiny84.upload.maximum_size=8192
+vusb.menu.cpu.attiny84.upload.maximum_data_size=512
+vusb.menu.cpu.attiny84.bootloader.low_fuses=0xff
+vusb.menu.cpu.attiny84.bootloader.high_fuses=0xdd
+vusb.menu.cpu.attiny84.bootloader.extended_fuses=0xff
+vusb.menu.cpu.attiny84.bootloader.unlock_bits=0xff
+vusb.menu.cpu.attiny84.bootloader.lock_bits=0xff
+
+# ATmega8
+# -------
+vusb.menu.cpu.atmega8=ATmega8 (12 MHz external)
+vusb.menu.cpu.atmega8.build.mcu=atmega8
+vusb.menu.cpu.atmega8.build.variant=arduino:standard
+vusb.menu.cpu.atmega8.build.board=atmega8
+vusb.menu.cpu.atmega8.build.f_cpu=12000000L
+vusb.menu.cpu.atmega8.upload.maximum_size=8192
+vusb.menu.cpu.atmega8.upload.maximum_data_size=1024
+vusb.menu.cpu.atmega8.bootloader.low_fuses=0xbf
+vusb.menu.cpu.atmega8.bootloader.high_fuses=0xcd
+vusb.menu.cpu.atmega8.bootloader.unlock_bits=0x3f
+vusb.menu.cpu.atmega8.bootloader.lock_bits=0x0f
+vusb.menu.cpu.atmega8.bootloader.tool=avrdude-noefuse
+
+# ATmega168p
+# ----------
+vusb.menu.cpu.atmega168p=ATmega168p (12 MHz external)
+vusb.menu.cpu.atmega168p.build.mcu=atmega168p
+vusb.menu.cpu.atmega168p.build.variant=arduino:standard
+vusb.menu.cpu.atmega168p.build.board=atmega168p
+vusb.menu.cpu.atmega168p.build.f_cpu=12000000L
+vusb.menu.cpu.atmega168p.upload.maximum_size=16384
+vusb.menu.cpu.atmega168p.upload.maximum_data_size=1024
+vusb.menu.cpu.atmega168p.bootloader.low_fuses=0xff
+vusb.menu.cpu.atmega168p.bootloader.high_fuses=0xdd
+vusb.menu.cpu.atmega168p.bootloader.extended_fuses=0xf9
+vusb.menu.cpu.atmega168p.bootloader.unlock_bits=0x3f
+vusb.menu.cpu.atmega168p.bootloader.lock_bits=0x0f
+
+# ATmega328p
+# ----------
+vusb.menu.cpu.atmega328p=ATmega328p (12 MHz external)
+vusb.menu.cpu.atmega328p.build.mcu=atmega328p
+vusb.menu.cpu.atmega328p.build.variant=arduino:standard
+vusb.menu.cpu.atmega328p.build.board=atmega328p
+vusb.menu.cpu.atmega328p.build.f_cpu=12000000L
+vusb.menu.cpu.atmega328p.upload.maximum_size=32768
+vusb.menu.cpu.atmega328p.upload.maximum_data_size=2048
+vusb.menu.cpu.atmega328p.bootloader.low_fuses=0xff
+vusb.menu.cpu.atmega328p.bootloader.high_fuses=0xdb
+vusb.menu.cpu.atmega328p.bootloader.extended_fuses=0xfd
+vusb.menu.cpu.atmega328p.bootloader.unlock_bits=0x3f
+vusb.menu.cpu.atmega328p.bootloader.lock_bits=0x0f

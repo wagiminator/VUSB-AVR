@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map For VUSB_CDC
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+available	KEYWORD2
+begin	KEYWORD2
+delay	KEYWORD2
+print	KEYWORD2
+println	KEYWORD2
+read	KEYWORD2
+write	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+VUSB_CDC	KEYWORD1
+Serial_VUSB	KEYWORD1
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+

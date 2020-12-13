@@ -1,0 +1,15 @@
+
+VUSB_Mouse	KEYWORD1
+
+available	KEYWORD2
+begin		KEYWORD2
+moveX		KEYWORD2
+moveY		KEYWORD2
+move		KEYWORD2
+scroll		KEYWORD2
+leftClick	KEYWORD2
+middleClick	KEYWORD2
+rightClick	KEYWORD2
+setButtons	KEYWORD2
+setValues	KEYWORD2
+
