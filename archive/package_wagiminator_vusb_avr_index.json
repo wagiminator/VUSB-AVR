@@ -4,9 +4,9 @@
       "name": "VUSB-AVR",
       "maintainer": "Stefan Wagner",
       "websiteURL": "https://github.com/wagiminator/VUSB-AVR",
-      "email": "",
+      "email": " ",
       "help": {
-        "online": ""
+        "online": " "
       },
       "platforms": [
         {
@@ -15,7 +15,7 @@
           "version": "1.0.0",
           "category": "avr",
           "help": {
-            "online": ""
+            "online": " "
           },
           "url": "https://github.com/wagiminator/VUSB-AVR/archive/vusb_avr_v1_0_0.zip",
           "archiveFileName": "vusb_avr_v1_0_0.zip",
