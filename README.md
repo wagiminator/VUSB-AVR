@@ -42,3 +42,6 @@ The standard connection of D-/D+ to the physical pins of the AVR is shown in the
 - Connect your programmer to your PC and your board
 - Go to **Tools -> Burn Bootloader** to burn the fuses
 - Now you can upload your sketch
+
+For the example sketches go to **File -> Examples -> Examples for VUSB-AVR**.
+
