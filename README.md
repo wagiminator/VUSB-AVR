@@ -13,7 +13,7 @@ The package is based on:
 - Go to **File -> Preferences**
 - Enter the following URL in **Additional Boards Manager URLs**:
     ```
-    https://github.com/wagiminator/VUSB-AVR/blob/main/archive/package_wagiminator_vusb_avr_index.json
+    https://raw.githubusercontent.com/wagiminator/VUSB-AVR/main/archive/package_wagiminator_vusb_avr_index.json
     ```
 - Separate the URLs using a comma ( **,** ) if you have more than one URL
 - Go to **Tools -> Board -> Boards Manager...**
