@@ -23,7 +23,7 @@ The package is based on:
 - After installation is complete close the **Boards Manager** window
 
 # Hardware Setup
-A possible and frequently used wiring is shown below:
+A typical wiring is shown below:
 
 ![wiring.png](https://github.com/wagiminator/VUSB-AVR/blob/main/vusb_wiring.png)
 
